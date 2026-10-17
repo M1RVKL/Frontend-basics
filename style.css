@@ -1,0 +1,84 @@
+.variant-table {
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    width: 600px;
+}
+
+.variant-table td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row-1 {
+    background-color: #488f8f;
+    color: #ffffff;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.row-2 {
+    background-color: #f5f548;
+    color: #000000;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.row-1:hover {
+    background-color: #f5f548;
+    color: #000000;
+}
+
+.row-2:hover {
+    background-color: #488f8f;
+    color: #ffffff;
+}
+
+.empty-row {
+    height: 35px;
+    background-color: #ffffff;
+}
+
+.shapes-wrapper {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    border: 4px solid black;
+    border-radius: 15px;
+}
+
+.box1 {
+    background-color: #fdb583;
+}
+
+.box2 {
+    background-color: rgba(200, 100, 100, 0.85); 
+}
+
+.method-position {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.method-position .box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.method-position .box2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.method-transform .box2 {
+    transform: translate(30px, -40px);
+}
