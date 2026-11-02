@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.layout-container {
+    width: 80%;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #42d4f4;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.left-col {
+    background-color: #5be39c;
+}
+
+.center-col {
+    background-color: #eef28f;
+}
+
+.right-col {
+    background-color: #f76df2;
+}
+
+.footer {
+    background-color: #eef28f;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.left-col, .center-col, .right-col {
+    height: 300px;
+    line-height: 300px;
+    box-sizing: border-box;
+}
+
+
+/*
+ ЗАВДАННЯ 1: FLOAT ТЕХНОЛОГІЯ
+*/
+.float-layout .left-col {
+    float: left;
+    width: 33.33%;
+}
+
+.float-layout .center-col {
+    float: left;
+    width: 33.34%;
+}
+
+.float-layout .right-col {
+    float: left;
+    width: 33.33%;
+}
+
+.float-layout .footer {
+    clear: both;
+}
+
+
+/*
+ЗАВДАННЯ 2: FLEX ТЕХНОЛОГІЯ
+*/
+.flex-layout .middle-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.flex-layout .left-col, 
+.flex-layout .center-col, 
+.flex-layout .right-col {
+    flex: 1; 
+}
