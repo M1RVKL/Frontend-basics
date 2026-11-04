@@ -1,0 +1,27 @@
+.highlight-1 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.highlight-2 {
+    background-color: #2196F3;
+    color: white;
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+.controls button {
+    padding: 8px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#ninth-element, .tenth-element {
+    cursor: pointer; 
+}
+
+#ninth-element:hover, .tenth-element:hover {
+    text-decoration: underline; 
+}

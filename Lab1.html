@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="[Лабораторна, представлення, фронтенд]">
-    <meta name="description" content="[Лабораторна робота #1 з дисципліни ]">
+    <meta name="description" content="[Лабораторна робота #4 з дисципліни ]">
+    <link rel="stylesheet" href="style4.css">
+    <script src="script.js" defer></script>
     
     <title>Бєлов_ІМ-43</title>
 </head>
@@ -27,8 +29,8 @@
 
     <p>Улюблені книги або фільми:</p>
     <ol>
-        <li>"Мобі дік" 1851</li>
-        <li>"О дивний новий світ" 1932</li>
+        <li id="ninth-element">"Мобі дік" 1851</li>
+        <li class="tenth-element">"О дивний новий світ" 1932</li>
         <li>"Бійня номер 5" 1969</li>
     </ol>
 
@@ -42,10 +44,18 @@
     <br>у 1937 р. — стає центром новоутвореної Кам'янець-Подільської області.
     <br>у 1954 р. — місто перейменовано на Хмельницький на честь гетьмана Богдана Хмельницького.
 </p>
-
-    <a href="https://uk.wikipedia.org/wiki/%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9" target="_blank" title="Перейти на сайт міста">
-        <img src="Hmelnytsky.jpg" alt="Фото улюбленого міста" width="600">
+ <div id="image-container"></div>
+     <a href="https://uk.wikipedia.org/wiki/%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9" id="img-link" target="_blank" title="Перейти на сайт міста">
+        <img src="Hmelnytsky.jpg" id="city-image" alt="Фото улюбленого міста" width="600">
     </a>
+</div> 
+
+<div class="controls">
+    <button id="add-btn">Додати</button>
+    <button id="increase-btn">Збільшити</button>
+    <button id="decrease-btn">Зменшити</button>
+    <button id="delete-btn">Видалити</button>
+</div>
 
 </body>
 </html>
