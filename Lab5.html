@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бєлов В.Д. ІМ-43. Лабораторна 5. Варіант 8</title>
+    <link rel="stylesheet" href="style5.css">
+    <script src="script5.js" defer></script>
+</head>
+<body>
+
+    <h2>Заповнення Форми</h2>
+    <div class="task1-container">
+        <form id="myForm">
+            <div class="form-group">
+                <label>ПІБ:</label>
+                <input type="text" id="name" placeholder="ТТТТТТ Т.Т.">
+            </div>
+            <div class="form-group">
+                <label>Група:</label>
+                <input type="text" id="group" placeholder="ТТ-44">
+            </div>
+            <div class="form-group">
+                <label>ID-card (напр. АВ №123456):</label>
+                <input type="text" id="idcard" placeholder="ТТ №444444">
+            </div>
+            <div class="form-group">
+                <label>Дата народж. (напр. 14.09.2004):</label>
+                <input type="text" id="dob" placeholder="44.44.4444">
+            </div>
+            <div class="form-group">
+                <label>e-mail:</label>
+                <input type="text" id="email" placeholder="TTTTTT@TTTTT.com">
+            </div>
+            <button type="submit">Підтвердити</button>
+        </form>
+
+        <div id="outputWindow" class="output-hidden">
+            <h3>Введені дані:</h3>
+            <p id="outName"></p>
+            <p id="outGroup"></p>
+            <p id="outId"></p>
+            <p id="outDob"></p>
+            <p id="outEmail"></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>Івенти таблиці</h2>
+    <div class="task2-container">
+        <label>Оберіть колір для кліку: <input type="color" id="colorPalette" value="#ff0000"></label>
+        
+        <table id="interactiveTable">
+        </table>
+    </div>
+
+</body>
+</html>
